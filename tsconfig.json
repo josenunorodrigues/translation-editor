@@ -1,0 +1,15 @@
+{
+	"include": ["src/webview.tsx", "src/extension.ts", "src/declarations.d.ts"],
+	"compilerOptions": {
+		"module": "Node16",
+		"target": "ES2022",
+		"lib": [
+			"ES2022",
+			"dom"
+		],
+		"sourceMap": true,
+		"rootDir": "src",
+		"jsx": "react",
+		"strict": false  
+	}
+}

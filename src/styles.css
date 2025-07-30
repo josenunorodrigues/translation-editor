@@ -1,0 +1,79 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  background-color: var(--vscode-editor-background);
+  border-top: none;
+}
+
+table > thead > tr {
+  position: sticky;
+  top: 0;
+  background-color: var(--vscode-editor-background);
+}
+
+table > tbody > tr:not(.collapse) {
+  background-color: transparent;
+}
+
+table > tbody > tr:not(.collapse):hover {
+  background-color: var(--vscode-toolbar-hoverBackground);
+}
+
+table > tbody > tr:not(.collapse):hover .remove-button {
+  visibility: visible;
+}
+
+.collapse table {
+  border: none;
+}
+
+.collapse table tr {
+  background-color: transparent;
+}
+
+.missing-value {
+  background-color: var(--vscode-inputValidation-errorBackground);
+}
+
+.remove-button {
+  visibility: hidden;
+  background-color: #00000000;
+  color: #cc5555;
+  border: 1px solid #cc5555;
+}
+
+.remove-button:hover {
+  background-color: #cc555555;
+}
+
+button {
+  background-color: var(--vscode-button-background);
+  color: var(--vscode-button-foreground);
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: var(--vscode-font-family);
+  font-size: 13px;
+  padding: 2px 7px 2px 7px;
+  user-select: none;
+}
+
+button:hover {
+  background-color: var(--vscode-button-hoverBackground);
+}
+
+.has-error {
+  outline-color: var(--vscode-inputValidation-errorBorder);
+}
