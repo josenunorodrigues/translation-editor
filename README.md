@@ -3,14 +3,6 @@
     <img src="./media/logo.png" width="94">
   </p>
   Translation editor
-  <p align="center">
-    <a href="https://marketplace.visualstudio.com/items?itemName=ogre.json-synchronizer">
-      <img 
-        src="https://img.shields.io/visual-studio-marketplace/v/ogre.json-synchronizer?color=blue&amp;label=JSON%20Synchronizer&logo=visual-studio-code"
-        alt="Visual Studio Marketplace Version"
-      />
-    </a>
-  </p>
 </h1>
 
 Translation editor allows simultaneous editing of multiple JSON files. Each file must contain a single object, which can include nested objects and strings. Suitable for i18n management.
