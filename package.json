@@ -31,7 +31,7 @@
     "commands": [
       {
         "command": "translation-editor.synchronize",
-        "title": "Synchronize JSON"
+        "title": "Translation editor"
       }
     ],
     "menus": {
