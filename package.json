@@ -1,13 +1,13 @@
 {
   "name": "translation-editor",
-  "displayName": "JSON Synchronizer",
-  "description": "Synchronize JSON objects across multiple files by editing them in a convenient table. Suitable for i18n management.",
-  "version": "1.0.4",
+  "displayName": "Translation editor",
+  "description": "Edit translations across multiple files. Suitable for i18n management..",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/josenunorodrigues/translation-editor"
   },
-  "publisher": "nuno rodrigues",
+  "publisher": "NunoRodrigues",
   "engines": {
     "vscode": "^1.93.0"
   },
